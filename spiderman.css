@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    max-width: 80vw;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.first span img{
+    position: relative;
+    width: 80px;
+    height: 60px;
+    margin: 1px;
+    padding-top: 5px;
+    filter: invert();
+
+}
+.sec ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+ .sec ul li{
+    margin: 3px;
+    padding: 7px;
+ }
+
+.main{
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.main img{
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+    filter: invert();
+    animation: zoom-in-zoom-out 1s ease-out infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      scale: 80%;
+    }
+    50% {
+      scale: 100%;
+    }
+    100% {
+      scale: 80%;
+    }
+  }
+.greet{
+    background-color: red;
+    background-image: linear-gradient(45deg, #0c49f1, #ff0101);
+    background-clip: text;
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80vw;;
+    height: auto;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(211, 0, 0);
+}
+h1{
+    margin-bottom: 0;
+}
+p{  
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main #dots{
+    position: absolute;
+    background-color:transparent;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.sec ul li:hover {
+    color: rgb(255, 3, 3);
+    padding: 6px;
+}
