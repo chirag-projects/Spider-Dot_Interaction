@@ -29,12 +29,10 @@ The "web" is only spun if the distance falls within a specific radius (threshold
 See the interactive animation in action below:
 
 <p align="center">
-  <img src="./dio.gif" alt="ArachneCanvas Demo" width="600">
+  <video src="./dio.mp4" width="600" autoplay loop muted playsinline>
+    Your browser does not support the video tag.
+  </video>
 </p>
-
-> **Note on GIF**: To display your animation, ensure your `dio.gif` file is in the root directory. Using a GIF allows for automatic looping and high compatibility across all Markdown viewers.
-
----
 
 ## To Run locally
 
