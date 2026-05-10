@@ -28,12 +28,11 @@ The "web" is only spun if the distance falls within a specific radius (threshold
 ## Preview
 See the interactive animation in action below:
 
-<p align="center">
-  <video src="./dio.mp4" width="600" autoplay loop muted playsinline>
+<div align="center">
+  <video src="dio.mp4" width="100%" autoplay loop muted playsinline>
     Your browser does not support the video tag.
   </video>
-</p>
-
+</div>
 ## To Run locally
 
 1.  **Clone the Repo**: Download the source files.
