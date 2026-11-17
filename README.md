@@ -44,4 +44,3 @@ See the interactive animation in action below:
 
 ---
 *© This site is intended for animation project purposes.*
-HTML CSS and JavaScript
